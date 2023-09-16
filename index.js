@@ -9,10 +9,10 @@ app.use(express.json())
 app.use("/form/registration", studentModel);
 
 app.set("view engine", "ejs")
-app.use(express.static('public'))
+app.use(express.static(__dirname+ '/public'))
 
 app.get("/form", (req, res) => {
-    res.render(__dirname+'/views/index.ejs')
+    res.render(__dirname +'/views/index.ejs')
 })
 
 mongoose.connect("mongodb://127.0.0.1:27017/Talha").then((res) => {
