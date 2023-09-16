@@ -12,7 +12,7 @@ app.set("view engine", "ejs")
 app.use(express.static('public'))
 
 app.get("/form", (req, res) => {
-    res.render('index')
+    res.render(__dirname+'/views/index.ejs')
 })
 
 mongoose.connect("mongodb://127.0.0.1:27017/Talha").then((res) => {
