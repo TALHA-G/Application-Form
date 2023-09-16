@@ -15,7 +15,7 @@ app.get("/form", (req, res) => {
     res.render(__dirname +'/views/index.ejs')
 })
 
-mongoose.connect("mongodb+srv://mtalhagujjar285:mt@lh@gujj@r@talha-cluster.wp71qfl.mongodb.net/?retryWrites=true&w=majority/Talha").then((res) => {
+mongoose.connect("mongodb+srv://mtalhagujjar285:mt@lh@gujj@r@talha-cluster.wp71qfl.mongodb.net/Talha?retryWrites=true&w=majority").then((res) => {
     console.log("Connected...")
 }).catch((error) => {
     console.log(error.message)
