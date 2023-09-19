@@ -6,7 +6,7 @@ var formModel = mongoose.model("form", new mongoose.Schema({
     Email:String,
     Address: String,
     DOB: String,
-    Course: String,
+    Course: String
 }))
 
 module.exports = formModel;
