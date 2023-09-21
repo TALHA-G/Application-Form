@@ -57,3 +57,31 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+
+
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #f6226f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+      max-width: 300px;
+    }
+  }

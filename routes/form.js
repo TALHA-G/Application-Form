@@ -3,7 +3,7 @@ const formModel = require("../models/formModel")
 
 
 
-  router.get("/", async function (req, res) {
+  router.get("/form", async function (req, res) {
     await formModel.create(req.query)
     res.send(" Your Form is Submitted Successfully!")
 })
