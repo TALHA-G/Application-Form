@@ -8,14 +8,15 @@ body {
 }
 
 h1 {
-    background-color: #007BFF;
+    background-color:#f6226f;
     color: #fff;
     padding: 20px;
     margin-bottom: 20px;
 }
 
 form {
-    max-width: 600px;
+    border: 2px solid black;
+    width: 30vw;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -30,35 +31,54 @@ label {
     margin-bottom: 5px;
 }
 
+
 /* Style form inputs and select */
+
 input[type="text"],
 input[type="email"],
 input[type="date"],
 select,
 textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
+    margin-bottom: 10px; 
     border-radius: 3px;
 }
 
 /* Style the submit button */
 input[type="submit"] {
-    background-color: #007BFF;
+    background-color: #f6226f;
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
+
 /* Style the submit button on hover */
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #f6226f;
 }
 
 
+
+                       /* Login page */
+.card{
+    background-color: #f6226f;
+    margin-top: 10rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#username,#password{
+    background-color: #93e5f0;
+    width: 50%;
+    padding: 1rem;
+}
 
 
 .login-button {
@@ -66,22 +86,17 @@ input[type="submit"]:hover {
     background-color: #f6226f;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
     cursor: pointer;
   }
   
-  .register-button {
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+
   
-  @media (max-width: 480px) {
+ @media (max-width: 480px) {
     .card {
       width: 100%;
       max-width: 300px;
     }
-  }
+  } 
